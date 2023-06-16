@@ -1,0 +1,460 @@
+* {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        
+        }
+        body{
+
+ }
+        nav ul {
+            list-style: none;
+        }
+
+        ul,
+        ol {
+            list-style: none;
+        }
+
+        .nav>li {
+            float:  left;
+        }
+
+        nav>ul>li {
+            float:  left;
+        }
+
+        .nav li a {
+            text-align: center;
+            background-color: #dcd045;
+            color: black    ;
+            text-decoration: none;
+            padding: 5px 10px;
+            display: ;
+            align-content:  center  ;
+        }
+
+        .nav li a:hover {
+            background-color: pink;
+        }
+
+        .nav li ul {
+            display: none;
+            position: absolute;
+            min-width: 100px;
+        }
+
+        .nav li:hover>ul {
+            display: ;
+        }
+
+        .nav li ul li {
+            position: relative;
+        }
+
+        .nav li ul li ul {
+            right: 150%;
+            top: 10px;
+        }
+        .MENU{
+            background-color:   yellow  ;
+            align-content:center      ;
+        }
+        .contenedor{
+            padding: 10px 40px;
+           }  
+           .drogas{
+           padding: 1px 20px;
+           font-size:   20px;
+           font-family:     'Time Roman';
+           } 
+            .navss{
+                padding: 10px   700px;
+            }  
+            .truc{
+                background-color:   #ef6d6d;
+            }
+       .video{
+        height:     900%;
+        width:  100%;
+       }
+       .foo{
+        text-align:     center;
+        font-size:  30px;
+        background-color:   #be0d0d;
+       }
+       .imagen{
+        padding:    10px 10px;
+        width: 800px ;
+            height: 100px;
+       }
+       .imagens{
+            visibility: hidden;
+            display: none;
+        }
+        .con{text-align: center;}
+       @media(max-width:1000px){
+        .imagen{
+            padding: 5px 15px;
+            width: 700px ;
+            height: 100px;
+        }
+        .contenedor{
+            padding: 1px 50px;
+            justify-content: center;
+        }
+
+.drogas{
+           padding: 10px 1px;
+           font-size:   18px;
+           font-family:     'Time Roman';
+           } 
+            .navss{
+                padding: 20px   25px;
+            }  
+            .truc{
+                background-color:   #ef6d6d;
+            }
+       .video{
+        height:     300%;
+        width:  100%;
+       }
+       .foo{
+        text-align:     center;
+        font-size:  20px;
+        background-color:   #be0d0d;
+       }
+       .nav li a {
+            text-align: center;
+            background-color: #dcd045;
+            color: black    ;
+            text-decoration: none;
+            padding: 0px 5px;
+            display: ;
+            align-content:  center  ;
+        }
+        .imagens{
+            visibility: hidden;
+            display: none;
+        }
+@media(max-width:900px){
+        .imagen{
+            padding: 5px 15px;
+            width: 700px ;
+            height: 100px;
+        }
+        .contenedor{
+            padding: 1px 40px;
+            justify-content: center;
+        }
+
+.drogas{
+           padding: 10px 1px;
+           font-size:   17px;
+           font-family:     'Time Roman';
+           } 
+            .navss{
+                padding: 20px   25px;
+            }  
+            .truc{
+                background-color:   #ef6d6d;
+            }
+       .video{
+        height:     300%;
+        width:  100%;
+       }
+       .foo{
+        text-align:     center;
+        font-size:  20px;
+        background-color:   #be0d0d;
+       }
+       .nav li a {
+            text-align: center;
+            background-color: #dcd045;
+            color: black    ;
+            text-decoration: none;
+            padding: 0px 5px;
+            display: ;
+            align-content:  center  ;
+        }
+        .imagens{
+            visibility: hidden;
+            display: none;
+        }
+@media(max-width:800px){
+        .imagen{
+            padding: 5px 15px;
+            width: 600px ;
+            height: 80px;
+        }
+        .contenedor{
+            padding: 1px 35px;
+            justify-content: center;
+        }
+
+.drogas{
+           padding: 10px 1px;
+           font-size:   17px;
+           font-family:     'Time Roman';
+           } 
+            .navss{
+                padding: 20px   25px;
+            }  
+            .truc{
+                background-color:   #ef6d6d;
+            }
+       .video{
+        height:     300%;
+        width:  100%;
+       }
+       .foo{
+        text-align:     center;
+        font-size:  20px;
+        background-color:   #be0d0d;
+       }
+       .nav li a {
+            text-align: center;
+            background-color: #dcd045;
+            color: black    ;
+            text-decoration: none;
+            padding: 0px 5px;
+            display: ;
+            align-content:  center  ;
+        }
+        .imagens{
+            visibility: hidden;
+            display: none;
+        }
+       @media(max-width:700px){
+        .imagen{
+            padding: 15px 15px;
+            width: 520px ;
+            height: 80px;
+        }
+        .contenedor{
+            padding: 1px 35px;
+            justify-content: center;
+        }
+
+.drogas{
+           padding: 10px 1px;
+           font-size:   17px;
+           font-family:     'Time Roman';
+           } 
+            .navss{
+                padding: 20px   25px;
+            }  
+            .truc{
+                background-color:   #ef6d6d;
+            }
+       .video{
+        height:     300%;
+        width:  100%;
+       }
+       .foo{
+        text-align:     center;
+        font-size:  20px;
+        background-color:   #be0d0d;
+       }
+       .nav li a {
+            text-align: center;
+            background-color: #dcd045;
+            color: black    ;
+            text-decoration: none;
+            padding: 0px 5px;
+            display: ;
+            align-content:  center  ;
+        }
+        @media(max-width:600px){
+        .imagen{
+            padding: 1px 40px;
+            width: 400px ;
+            height: 60px;
+        }
+        .imagens{
+            visibility: hidden;
+            display: none;
+        }
+        .contenedor{
+            padding: 1px 20px;
+            justify-content: center;
+        }
+
+.drogas{
+           padding: 10px 1px;
+           font-size:   17px;
+           font-family:     'Time Roman';
+           } 
+            .navss{
+                padding: 20px   25px;
+            }  
+            .truc{
+                background-color:   #ef6d6d;
+            }
+       .video{
+        height:     300%;
+        width:  100%;
+       }
+       .foo{
+        text-align:     center;
+        font-size:  20px;
+        background-color:   #be0d0d;
+       }
+       .nav li a {
+            text-align: center;
+            background-color: #dcd045;
+            color: black    ;
+            text-decoration: none;
+            padding: 0px 5px;
+            display: ;
+            align-content:  center  ;
+        }
+@media(max-width:500px){
+        .imagen{
+            
+        }
+        .fisico{
+            visibility: hidden;
+            display: none;
+        }
+        .sicologico{
+            visibility: hidden;
+            display: none;
+        }
+        .imagens{
+            visibility: visible;
+            padding: 5px 15px;
+            width: 370px ;
+            height: 70px;
+        }
+        .contenedor{
+            padding: 1px 10px;
+            justify-content: center;
+        }
+
+.drogas{
+           padding: 10px 1px;
+           font-size:   17px;
+           font-family:     'Time Roman';
+           } 
+            .navss{
+                padding: 20px   25px;
+            }  
+            .truc{
+                background-color:   #ef6d6d;
+            }
+       .video{
+        height:     300%;
+        width:  100%;
+       }
+       .foo{
+        text-align:     center;
+        font-size:  20px;
+        background-color:   #be0d0d;
+       }
+       .nav li a {
+            text-align: center;
+            background-color: #dcd045;
+            color: black    ;
+            text-decoration: none;
+            padding: 0px 5px;
+            display: ;
+            align-content:  center  ;
+        }
+        @media(max-width:400px){
+        .imagen{
+            display: none;
+            visibility: hidden;
+            padding: 5px 15px;
+            width: 250px ;
+            height: 40px;
+        }
+        .imagens{
+            visibility: visible;
+            padding: 5px 15px;
+            width: 275px ;
+            height: 60px;
+        }
+        .contenedor{
+            padding: 1px 10px;
+            justify-content: center;
+        }
+
+.drogas{
+           padding: 40px 15px;
+           font-size:   17px;
+           font-family:     'Time Roman';
+           } 
+            .navss{
+                padding: 20px   25px;
+            }  
+            .truc{
+                background-color:   #ef6d6d;
+            }
+       .video{
+        height:     300%;
+        width:  100%;
+       }
+       .foo{
+        text-align:     center;
+        font-size:  20px;
+        background-color:   #be0d0d;
+       }
+       .nav li a {
+            text-align: center;
+            background-color: #dcd045;
+            color: black    ;
+            text-decoration: none;
+            padding: 0px 5px;
+            display: ;
+            align-content:  center  ;
+        }
+         @media(max-width:300px){
+        .imagen{
+            
+            padding: 5px 15px;
+            width: 150px ;
+            height: 40px;
+        }
+        .imagens{
+            display: none;
+            visibility: hidden;
+            padding: 5px 15px;
+            width: 200px ;
+            height: 60px;
+        }
+        .contenedor{
+            padding: 1px 10px;
+            justify-content: center;
+        }
+
+.drogas{
+           padding: 40px 15px;
+           font-size:   17px;
+           font-family:     'Time Roman';
+           } 
+            .navss{
+                padding: 20px   25px;
+            }  
+            .truc{
+                background-color:   #ef6d6d;
+            }
+       .video{
+        height:     300%;
+        width:  100%;
+       }
+       .foo{
+        text-align:     center;
+        font-size:  20px;
+        background-color:   #be0d0d;
+       }
+       .nav li a {
+            text-align: center;
+            background-color: #dcd045;
+            color: black    ;
+            text-decoration: none;
+            padding: 0px 5px;
+            display: ;
+            align-content:  center  ;
+        }

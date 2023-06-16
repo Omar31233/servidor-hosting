@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+
+    <style>
+        span{
+            position: absolute;
+            left:10px;
+            top:10px;
+            font-size: 25px;
+        }
+        header{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: green;
+         }
+        .menu i{
+            right: 1000px;
+            bottom: 1000px;
+        }
+        #menuIzq{
+            height: 100vh;
+            position: fixed;
+            width: 0;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background: black;
+            overflow-x: hidden;
+            transition: .5s;
+        }
+        .navIzq{
+            margin-top: 30px;
+            
+        }
+        .navIzq > a{
+            color: green;
+            display: block;
+            text-decoration: none;
+            margin-top: 10px;
+            margin-bottom: 25px;
+            font-size: 15px;
+            margin-left: 25px;
+        }
+        #menuIzq{
+            padding: 8px 8px 8px 8px 10px;
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 10px;
+            color: green;
+            display: block;
+            transition: .5s;
+        }
+    </style>
+    <title>Menu</title>
+</head>
+<body>
+    <header>
+    <div id="menuIzq">
+        <nav class="navIzq">
+            <a href="#" class="btn" onclick="cerrarBtn()"><i class="fa-solid fa-xmark"></i></a><br><br>
+            <a href="index.php"><i class="fa-solid fa-house"></i>&nbsp&nbspInicio</a>
+            <a href="List.php"><i class="fa-solid fa-list-check"></i>&nbsp&nbspActividades</a>
+            <a href="Register.php"><i class="fa-solid fa-user"></i>&nbsp&nbspUsuario</a>
+            <a href="generador.php"><i class="fa-solid fa-key"></i>&nbsp&nbspGenerador</a>
+            <a href="#"><i class="fa-sharp fa-solid fa-suitcase"></i>&nbsp&nbspPortafolio</a>
+            <a href="contacto.php"><i class="fa-solid fa-envelope"></i>&nbsp&nbspContacto</a>
+            <a href="../html/index.html"><i class="fa-sharp fa-solid fa-arrow-right-from-bracket"></i>&nbsp&nbspSalir</a>
+        </nav>    
+    </div>
+    <span class="menu" onclick="abrirBtn()"><i class="fa-solid fa-bars"></i></span>    
+    <script src="./java.js"></script>
+</header>
